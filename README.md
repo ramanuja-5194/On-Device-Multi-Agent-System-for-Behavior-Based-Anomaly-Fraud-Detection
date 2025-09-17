@@ -1,12 +1,6 @@
-# Samsung EnnovateX 2025 AI Challenge Submission
+# On-Device Multi-Agent System for Behavior-Based Anomaly & Fraud Detection
 
-- **Problem Statement** — On-Device Multi-Agent System for Behavior-Based Anomaly & Fraud Detection: 
 Multi-agent system that runs fully on-device, continuously learning and modeling user behaviour patterns to detect anomalies or potential fraud in real-time, without sending sensitive data to external servers. The system can monitor user behaviour patterns (e.g., touch patterns, typing rhythm, app usage, movement) and build local models of “normal” behaviour. It should detect and react to anomalous or suspicious activity (e.g., unauthorized access, bot-like behaviour, spoofing).
-- **Team name** — Dev Dream Team
-- **Team members (Names)** — Omprakash Panda, Sindhu B L, Vittal G B, Vishwajith Chakravarthy
-- **Demo Video Link** — [Youtube](https://youtu.be/kQXd9r5204I) 
-
----
 
 ## Project Artefacts
 
@@ -17,52 +11,26 @@ Multi-agent system that runs fully on-device, continuously learning and modeling
   Fully runnable code with clear entry points (e.g., `src/main.py`), platform notes, and virtual environment setup.
 
 - **Models Used** — N/A  
-  Guardio currently uses statistical and behavioral methods (rolling windows, EMA, z-scores) and does not rely on external ML models.
+  currently uses statistical and behavioral methods (rolling windows, EMA, z-scores) and does not rely on external ML models.
 
 - **Models Published** — N/A
 
 - **Datasets Used** — N/A  
-  Guardio learns on-device from live behavioral signals and does not ship datasets.
+  learns on-device from live behavioral signals and does not ship datasets.
 
 - **Datasets Published** — N/A
-
----
-
-## Attribution
-
-This solution is original to Dev Dream Team and built from scratch for Samsung EnnovateX 2025. If any open-source components or prior work are incorporated later, links and contributions will be attributed explicitly here.
-
----
-
-# Guardio — Adaptive Behavioral Anomaly Detection
-
-<div align="center">
-
-![Guardio Logo](https://img.shields.io/badge/🛡️-Guardio-blue?style=for-the-badge&logoColor=white)
-
-[![Samsung EnnovateX 2025](https://img.shields.io/badge/Samsung-EnnovateX%202025-1F6FEB?style=for-the-badge&logo=samsung&logoColor=white)](https://ennovatex.io)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-FF6B35?style=for-the-badge)](https://customtkinter.tomschimansky.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](./LICENSE)
-
-**An intelligent, privacy‑first anomaly detection system that learns unique behavioral patterns to identify potential security threats in real time.**
-
-[🎬 Demo Video](#demo-video) • [🚀 Quick Start](#quick-start) • [📖 Documentation](#how-it-works) • [🧱 Architecture](#technical-architecture)
-
-</div>
-
 ---
 
 ## Built for Samsung EnnovateX 2025 AI Challenge
 
-Guardio implements adaptive, on-device behavioral security. It learns normal user activity and flags unusual patterns while preserving privacy through local processing.
+Implements adaptive, on-device behavioral security. It learns normal user activity and flags unusual patterns while preserving privacy through local processing.
 
 ### The Problem
 - Massive financial loss from evolving threats and unauthorized access
 - Static, rule-based systems fail to adapt to changing behaviors
 - Privacy concerns with cloud-based behavioral analytics
 
-### Our Solution
+### Solution
 - On-device, adaptive anomaly detection that:
   - Learns personal baselines continuously
   - Detects subtle deviations in real time
@@ -95,13 +63,6 @@ Guardio implements adaptive, on-device behavioral security. It learns normal use
 
 ---
 
-## Demo Video
-
-- ▶️ **YouTube (Unlisted/Public)**: [Youtube](https://youtu.be/kQXd9r5204I)  
-  A short walkthrough showing real-time detection and controls.
-
----
-
 ## Quick Start
 
 ### Prerequisites
@@ -111,8 +72,6 @@ Guardio implements adaptive, on-device behavioral security. It learns normal use
 ### Setup
 
 ```
-git clone https://github.com/mellowmates/guardio-ennovatex-2025-ai-challenge.git
-cd ennovatex-2025-ai-challenge-guardio
 
 # Create and activate virtual environment
 python -m venv venv
@@ -228,26 +187,3 @@ QUIET = 10.0
 └─ requirements.txt
 
 ```
-
----
-
-## License
-
-This project is released under the **MIT License**. See [LICENSE](./LICENSE) for details.
-
----
-
-## Contact
-
-- Team: Dev Dream Team  
-- Members: Omprakash Panda, Sindhu B L, Vittal G B, Vishwajith Chakravarthy  
-- Email: omprakash11273@gmail.com  
-- GitHub: https://github.com/mellowmates/guardio-ennovatex-2025-ai-challenge
-
----
-
-<div align="center">
-
-Built for Samsung EnnovateX 2025 • Privacy-first adaptive security
-
-</div>

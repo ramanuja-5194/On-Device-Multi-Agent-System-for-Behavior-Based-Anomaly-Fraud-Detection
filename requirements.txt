@@ -1,0 +1,14 @@
+# Guardio - Samsung EnnovateX 2025
+# Team Dev Dream Team
+
+# Core UI framework
+customtkinter
+
+# Input monitoring
+pynput
+
+# Numerical computations
+numpy
+
+# System utilities
+psutil

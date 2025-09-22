@@ -21,8 +21,6 @@ Multi-agent system that runs fully on-device, continuously learning and modeling
 - **Datasets Published** — N/A
 ---
 
-## Built for Samsung EnnovateX 2025 AI Challenge
-
 Implements adaptive, on-device behavioral security. It learns normal user activity and flags unusual patterns while preserving privacy through local processing.
 
 ### The Problem
